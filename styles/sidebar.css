@@ -1,0 +1,51 @@
+.sidebar{
+    background-color: rgb(255, 255, 255);
+    position: fixed;
+    top: 57px;
+    bottom: 0;
+    left: 0;
+    width:65px;
+}
+.sidelink{
+    display: flex;
+    flex-direction: column;
+   
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    height: 58px;
+    cursor: pointer;
+}
+.sidelink:hover{
+    background-color: rgb(201, 196, 196);
+}
+.home{
+    height: 28px;
+    margin-top: 7px;
+}
+.explore{
+    height: 28px;
+    margin-top: 7px;
+    
+}
+.subscription{
+    height: 28px;
+    margin-top: 7px;
+   
+}
+.orginals{
+   height: 28px;
+   margin-top: 7px;
+  
+}
+.music{
+    height: 28px;
+    margin-top: 7px;
+}
+.library{
+    height: 28px;
+    margin-top: 7px;
+}
+.phome,.pexplore,.psubscription,.porginals,.pmusic,.plibrary{
+    font-size: 10px;
+    font-family: Roboto, Arial;
+}
